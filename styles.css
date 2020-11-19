@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #F2BFAC;
+    color: #BF4539;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+p1 {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    flex-direction: column;
+    padding: 0.4rem;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    border-radius: 3px 0px 0px 3px;
+    width: 50vw;
+    height: 50px;
+    left: 485px;
+    top: 538px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+form button {
+    border-radius: 0px 3px 3px 0px;
+    height: 50px;
+    text-align: center;
+}
+
+button {
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: none;
+}
+
+input, button {
+    outline: none;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    background-color: white;
+    align-items: center;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.checkbox-input {
+    margin: 10px;
+}

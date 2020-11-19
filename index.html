@@ -3,11 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <title>Qmarket</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Qmarket.</h1>
-    </header>
+    <div class="landingpage">
+        <header>
+            <h1><span style="color: black;">Q</span>market.</h1>
+            <p1>A simple way to make your shopping list</p1>
+            <form>
+                <input type="text" placeholder="Type yout product">
+                <button type="submit">
+                    Add
+                </button>
+            </form>
+        </header>
+        <div class="products">
+            <ul>
+                <li>
+                    <div>
+                        <input type="checkbox" class="checkbox-input">
+                        <span>Skate</span>
+                    </div>
+                    <button><i class="fas fa-trash"></i></button>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" class="checkbox-input">
+                        <span>Bike</span>
+                    </div>
+                    <button><i class="fas fa-trash"></i></button>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" class="checkbox-input">
+                        <span>Ball</span>
+                    </div>
+                    <button><i class="fas fa-trash"></i></button>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
